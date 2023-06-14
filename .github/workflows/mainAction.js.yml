@@ -4,7 +4,8 @@
 name: lint.js CI
 
 on:
-  [push, pull_request]
+  push:
+  pull_request:
 
 jobs:
   build:
@@ -22,7 +23,7 @@ jobs:
       run: npm install
       
     - name: Lint check
-    - run: npm run lint
+      run: npm run lint
     
     - name: Build
-    - run: npm run build --if-present
+      run: npm run build --if-present
