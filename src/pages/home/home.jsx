@@ -3,7 +3,7 @@ import About from "../components/landing/about";
 
 const Home = () => {
   return (
-    <mainclea>
+    <main>
       <About />
     </main>
   );
