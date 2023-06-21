@@ -2,6 +2,7 @@ import React from "react";
 import About from "../components/landing/about";
 import Announcements from "../components/landing/announcements";
 import EventsLayout from "../components/landing/events/eventsLayout";
+import Patnership from "../components/landing/patnership";
 import Services from "../components/landing/services";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <EventsLayout/>
       <Services/>
       <Announcements/>
+      <Patnership/>
     </main>
   );
 };
