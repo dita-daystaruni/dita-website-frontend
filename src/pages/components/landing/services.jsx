@@ -1,12 +1,12 @@
 import React from "react";
 import GreyRedirectBtn from "../common/greyRedirectBtn";
-import GreyCard from '../common/greyCard';
+import GreyCard from "../common/greyCard";
 
 const Services = () => {
   return (
     <section className="pb-10">
-      <div className="px-20 mt-12">
-        <div className="flex justify-between">
+      <div className="px-20">
+        <div className="flex justify-between pt-10">
           <h3 className="font-bold text-2xl mb-10">SERVICES WE OFFER</h3>
           <GreyRedirectBtn margin_top_bottom="" margin_right={"mr-20"} />
         </div>
