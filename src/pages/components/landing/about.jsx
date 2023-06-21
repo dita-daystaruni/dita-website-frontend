@@ -1,5 +1,8 @@
 import React from "react";
 
+import about1 from "../../../assets/unsplash_gQtUcKahZoQ.png";
+import about2 from "../../../assets/unsplash_dsvJgiBJTOs.png";
+
 
 const About = () => {
   return (
@@ -18,6 +21,7 @@ const About = () => {
           <img
             className="max-w-lg p-10 mr-24"
             alt="campus view"
+            src={about1}
           />
         </div>
       </section>
@@ -26,6 +30,7 @@ const About = () => {
         <img
           className="max-w-lg p-10 ml-24"
           alt="lecture theater"
+          src={about2}
         />
         <div className="py-10 px-10 max-w-lg ml-24 mt-10 p-10 mr-24">
           <h3 className="font-bold text-2xl mb-5 text-right">
