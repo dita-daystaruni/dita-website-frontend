@@ -1,7 +1,7 @@
 import React from 'react'
-import EventsBtn from './eventsBtn';
+import BlueRedirectBtn from './blueRedirectBtn';
 
-const EventCards = ({heading,content}) => {
+const DarkCard = ({heading,content}) => {
   return (
     <div className="flex flex-col h-full">
       <div className="max-w-sm bg-custom-navy-blue border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700">
@@ -20,7 +20,7 @@ const EventCards = ({heading,content}) => {
             {/* TODO: DYNAMICALLY CHANGE CONTENT*/}
             {content}
           </p>
-          <EventsBtn />
+          <BlueRedirectBtn />
           <div className="border-t border-black">
             <p className="mt-4">ICT theater ・ 25 Januari 2023 ・ 10:05</p>
           </div>
@@ -30,4 +30,4 @@ const EventCards = ({heading,content}) => {
   );
 }
 
-export default EventCards
+export default DarkCard

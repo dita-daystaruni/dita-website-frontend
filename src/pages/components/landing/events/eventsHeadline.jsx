@@ -2,7 +2,7 @@ import React from 'react'
 
 import seatsVenue from '../../../../assets/Rectangle 9(1).png'
 import EventsParagraph from './eventsParagraph'
-import EventsBtn from './eventsBtn';
+import BlueRedirectBtn from '../../common/blueRedirectBtn';
 
 const EventsHeadline = () => {
   return (
@@ -38,7 +38,7 @@ const EventsHeadline = () => {
         <EventsParagraph>
           id egestas duis at egestas etiam sed. Neque id viverra....
         </EventsParagraph>
-          <EventsBtn/>
+          <BlueRedirectBtn/>
       </div>
     </section>
   );

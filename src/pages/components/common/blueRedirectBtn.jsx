@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
-const EventsBtn = () => {
+const BlueRedirectBtn = () => {
   return (
     <button className='flex gap-4 my-10'>
       <BsFillArrowRightCircleFill size={30} color="#075EDF" />
@@ -10,4 +10,4 @@ const EventsBtn = () => {
   );
 }
 
-export default EventsBtn
+export default BlueRedirectBtn
