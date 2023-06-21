@@ -7,7 +7,11 @@ export default {
   ],
   darkMode: 'class', 
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-navy-blue': '#1E1E1E',
+      }
+},
   },
   plugins: [],
 }
