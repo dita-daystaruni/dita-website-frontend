@@ -4,7 +4,7 @@ import GreyCard from '../common/greyCard';
 
 const Services = () => {
   return (
-    <section>
+    <section className="pb-10">
       <div className="px-20 mt-12">
         <div className="flex justify-between">
           <h3 className="font-bold text-2xl mb-10">SERVICES WE OFFER</h3>
