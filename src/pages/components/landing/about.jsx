@@ -1,7 +1,5 @@
 import React from "react";
 
-import aboutPicture1 from "../../../assets/unsplash_gQtUcKahZoQ.png";
-import aboutPicture2 from "../../../assets/unsplash_dsvJgiBJTOs.png";
 
 const About = () => {
   return (
@@ -19,7 +17,6 @@ const About = () => {
           {/* Picture representing about us picture 1 */}
           <img
             className="max-w-lg p-10 mr-24"
-            src={aboutPicture1}
             alt="campus view"
           />
         </div>
@@ -28,7 +25,6 @@ const About = () => {
         {/* Picture representing about us picture 1 */}
         <img
           className="max-w-lg p-10 ml-24"
-          src={aboutPicture2}
           alt="lecture theater"
         />
         <div className="py-10 px-10 max-w-lg ml-24 mt-10 max-w-lg p-10 mr-24">
