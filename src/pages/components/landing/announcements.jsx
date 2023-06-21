@@ -9,7 +9,7 @@ const Announcements = () => {
       {/* Div for first flex item */}
       <div className="py-10 px-10 max-w-xl ml-24 mt-10 p-10 mr-24">
         <h3 className="font-bold text-2xl mb-10">ANNOUNCEMENTS</h3>
-        <h3 className="font-bold text-2xl mb-2 text-lg">
+        <h3 className="font-bold mb-3 text-lg">
           Beasiswa Full Bagi Mahasiswa Berminat *S & K Berlaku
         </h3>
         <p className="mb-2">22-Januari-2023</p>
