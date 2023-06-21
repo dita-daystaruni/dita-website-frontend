@@ -1,6 +1,6 @@
 import React from 'react'
 
-import seatsVenue from "../../../assets/Rectangle 9(1).png";
+import announcements from "../../../assets/announcement.png";
 import GreyRedirectBtn from "../common/greyRedirectBtn";
 
 const Announcements = () => {
@@ -29,7 +29,7 @@ const Announcements = () => {
       {/* Div for second flex item */}
       <div className="py-10 px-10 max-w-xl mr-24 mt-10 p-10 ml-24">
         {/* Picture representing events venue */}
-        <img src={seatsVenue} alt="events venue" />
+        <img src={announcements} alt="events venue" />
         <p>
           Beasiswa di peruntukan bagi mahasiswa kurang mampu dengan syarat dan
           ketentuan tertentu. Lihat S&K berlaku
