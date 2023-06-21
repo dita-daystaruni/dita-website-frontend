@@ -1,23 +1,23 @@
 import React from "react";
 
 import EventsHeadline from "./eventsHeadline";
-import EventCards from "./eventCards";
+import DarkCard from "../../common/DarkCard";
 
 const EventsLayout = () => {
   return (
-    <main className="bg-black text-white">
+    <main className="bg-black text-white pb-10">
       <EventsHeadline />
       <div className="flex justify-center ">
         <div className="grid grid-cols-3 gap-10 items-center mt-4">
-          <EventCards
+          <DarkCard
             heading="Prodi Informatika Raih Akredit.."
             content="UKM AMIK menjadi Perwakilan.. "
           />
-          <EventCards
+          <DarkCard
             heading="Diseminasi Teknologi CSRG"
             content="CSRG menjadi pemateri seminar wawasan teknologi ke beberapa pelosok negeri guna mendukung wawasan teknologi merata. "
           />
-          <EventCards
+          <DarkCard
             heading="UKM AMIK menjadi Perwakilan.. "
             content="CSRG menjadi satu-satunya perwakilan dari Indonesia di event Engineering Con- ferences, USA."
           />
