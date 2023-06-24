@@ -1,5 +1,6 @@
 import React from 'react'
 import BlueRedirectBtn from './blueRedirectBtn';
+import dummyImage from "../../../assets/unsplash_dsvJgiBJTOs.png";
 
 const DarkCard = ({heading,content}) => {
   return (
@@ -7,7 +8,7 @@ const DarkCard = ({heading,content}) => {
       <div className="max-w-sm bg-custom-navy-blue border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700">
         <div>
           {/* TODO: ADD IMAGES TO RESPECTIVE CARDS */}
-          <img src="/docs/images/blog/image-1.jpg" alt="" />
+          <img src={dummyImage} alt="" />
         </div>
         <div className="p-5">
           <div>
