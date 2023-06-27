@@ -6,15 +6,15 @@ import BlueRedirectBtn from '../../common/blueRedirectBtn';
 
 const EventsHeadline = () => {
   return (
-    <section className="flex flex-row justify-between">
+    <section className="flex justify-between max-lg:flex-col max-lg:self-center">
       {/* Div for first flex item */}
-      <div className="py-10 px-10 max-w-xl ml-24 mt-10 p-10 mr-24">
+      <div className="py-10 px-10 max-w-xl ml-24 mt-10 p-10 mr-24 max-sm:py-2 max-sm:px-2 max-sm:mx-5">
         <h3 className="font-bold text-2xl mb-10">DITA EVENTS</h3>
         {/* Picture representing events venue */}
         <img src={seatsVenue} alt="events venue" />
       </div>
       {/* Div for second flex item */}
-      <div className="max-w-md mt-12 p-5 mx-24">
+      <div className="max-w-md mt-12 p-5 mx-24 max-sm:p-0 max-md:mx-5">
         <h3 className="font-normal mb-6">
           Campus News berisikan berita-berita terupdate seputar STMIK
           “AMIKBANDUNG”
