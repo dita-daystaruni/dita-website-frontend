@@ -5,14 +5,14 @@ import GreyCard from "../common/greyCard";
 const Services = () => {
   return (
     <section className="pb-10">
-      <div className="px-20">
-        <div className="flex justify-between pt-10">
+      <div className="px-20 max-sm:px-5">
+        <div className="flex justify-between pt-10 max-sm:flex-col">
           <h3 className="font-bold text-2xl mb-10">SERVICES WE OFFER</h3>
           <GreyRedirectBtn margin_top_bottom="" margin_right={"mr-20"} />
         </div>
       </div>
-      <div className="flex justify-center">
-        <div className="grid grid-cols-3 gap-10 items-center mt-4">
+      <div className="flex justify-center md:px-5 ">
+        <div className="grid grid-cols-3 gap-10 items-center mt-4 max-sm:grid-cols-1">
           <GreyCard
             heading="Webinar Pentingnya Keamana..."
             content="Membangun rasa kepedulian akan ke- amanan data pribadi. "
