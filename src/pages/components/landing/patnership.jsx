@@ -4,9 +4,9 @@ import {patners} from '../../../utils/patnerList';
 
 const Patnership = () => {
   return (
-    <section className="bg-gray-200 py-20">
+    <section className="bg-gray-200 py-20 max-sm:py-10">
       <h3 className="font-bold text-2xl text-center py-10">Patnerships</h3>
-      <p className="text-center">
+      <p className="px-5 text-center">
         Kampus STMIK “AMIKBANDUNG” telah bekerjasama dengan beberapa
         perusahaan-perusahaan sebagai penunjang aktifitas kegiatan kampus dan
         juga mahasiswa.
