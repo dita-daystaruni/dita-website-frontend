@@ -22,9 +22,9 @@ const Team = () => {
         slider.style.transform = "translateX(" + defaultTransform + "px)";
     }
   return (
-    <section className="flex justify-between py-20">
+    <section className="flex justify-between py-20 max-sm:flex-col">
       {/* FIrst div */}
-      <div className="max-w-sm mx-20">
+      <div className="max-w-sm mx-20 max-sm:mx-10">
         <h3 className="font-bold text-2xl mb-10">
           KIPRAH DOSEN TENAGA PENDIDIKAN DAN MAHASISWA
         </h3>
