@@ -32,7 +32,7 @@ const About = () => {
           alt="lecture theater"
           src={about2}
         />
-        <div className="md:py-10 md:px-10 md:max-w-lg md:ml-24 md:mt-10 md:p-10 md:mr-24 max-sm:px-0 py-8">
+        <div className="md:py-10 md:px-10 md:max-w-lg md:ml-24 md:mt-10 md:p-10 md:mr-24 max-sm:px-5 py-8">
           <h3 className="font-bold text-2xl mb-5 text-right">
             SEE OUR PROJECTS
           </h3>
