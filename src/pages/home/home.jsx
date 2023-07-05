@@ -5,6 +5,7 @@ import EventsLayout from "../components/landing/events/eventsLayout";
 import Patnership from "../components/landing/patnership";
 import Services from "../components/landing/services";
 import Team from "../components/landing/team";
+import Footer from "../components/landing/footer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Announcements/>
       <Team/>
       <Patnership/>
+      <Footer/>
     </main>
   );
 };
