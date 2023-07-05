@@ -76,7 +76,7 @@ const Footer = () => {
           style={{ width: "75vw", marginLeft: "auto", marginRight: "auto" }}
         />
         <div className="md:flex w-3/6 content-center justify-center">
-          <section className="flex gap-10 my-10">
+          <section className="flex gap-10 my-10 justify-center content-center">
             {socialMediaLinks.map((social) => {
               return (
                 <div key={social.id}>
@@ -88,9 +88,15 @@ const Footer = () => {
             })}
           </section>
         </div>
-        <p className="font-thin text-sm text-center my-2" style={{
-          fontSize:".9em",paddingBottom:"2em"
-        }}>2023 | STMIK “AMIKBANDUNG”. All Right Reserved</p>
+        <p
+          className="font-thin text-sm text-center my-2"
+          style={{
+            fontSize: ".9em",
+            paddingBottom: "2em",
+          }}
+        >
+          2023 | STMIK “AMIKBANDUNG”. All Right Reserved
+        </p>
       </div>
     </main>
   );
