@@ -19,7 +19,7 @@ const About = () => {
         <div>
           {/* Picture representing about us picture 1 */}
           <img
-            className="md:max-w-lg md:p-10 ml-24 max-sm:p-0 max-sm:ml-0"
+            className="md:max-w-lg md:p-10 mr-24 max-sm:p-0 max-sm:ml-0"
             alt="campus view"
             src={about1}
           />
