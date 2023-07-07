@@ -3,7 +3,6 @@ import React from "react";
 import about1 from "../../../assets/unsplash_gQtUcKahZoQ.png";
 import about2 from "../../../assets/unsplash_dsvJgiBJTOs.png";
 
-
 const About = () => {
   return (
     <main className="max-w-full bg-gray-200">
