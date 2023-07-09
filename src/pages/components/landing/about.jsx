@@ -11,7 +11,7 @@ const About = () => {
     if (isInView) {
       animate(scope.current, { opacity: 1 });
     }
-  }, [isInView]);
+  }, [isInView],animate,scope);
 
   return (
     <main className="max-w-full bg-gray-200">
