@@ -1,19 +1,37 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { motion, useAnimate,useInView } from "framer-motion";
 
 import about1 from "../../../assets/unsplash_gQtUcKahZoQ.png";
 import about2 from "../../../assets/unsplash_dsvJgiBJTOs.png";
 
 const About = () => {
+ const [scope, animate] = useAnimate();
+ const isInView = useInView(scope);
+  useEffect(() => {
+    if (isInView) {
+      animate(scope.current, { opacity: 1 });
+    }
+  }, [isInView]);
+
   return (
     <main className="max-w-full bg-gray-200">
       <section className="md:flex md:justify-between max-lg:flex-col">
         <div className="md:py-10 md:px-10 max-w-lg ml-24 p-10 mr-24 max-sm:py-5 max-sm:px-0 max-sm:mx-5">
           <h3 className="font-bold text-2xl mb-5">What is DITA</h3>
-          <p>
+          <motion.p
+            ref={scope}
+            initial={{ opacity: 0, scale: 0.5 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{
+              duration: 0.8,
+              delay: 0.5,
+              ease: [0, 0.71, 0.2, 1.01],
+            }}
+          >
             Kampus STMIK “AMIKBANDUNG” sebagai perguruan tinggi yang menjadi
             sumber keahlian teknologi informasi dan komunikasi dalam menyediakan
             tenaga-tenaga di dunia industri kreatif (para digital talent).
-          </p>
+          </motion.p>
         </div>
         <div>
           {/* Picture representing about us picture 1 */}
@@ -35,11 +53,21 @@ const About = () => {
           <h3 className="font-bold text-2xl mb-5 text-right">
             SEE OUR PROJECTS
           </h3>
-          <p className="text-right">
+          <motion.p
+            ref={scope}
+            className="text-right"
+            initial={{ opacity: 0, scale: 0.5 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{
+              duration: 0.8,
+              delay: 0.5,
+              ease: [0, 0.71, 0.2, 1.01],
+            }}
+          >
             Take a look at some of the prrojects that we&apos;ve been
             responsiblefor since we began this communivty of technologists
             amongst us in Daystar Univeristy.
-          </p>
+          </motion.p>
         </div>
       </section>
     </main>
