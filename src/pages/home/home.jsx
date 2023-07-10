@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/landing/header"
+import Header from "../components/landing/header";
 import About from "../components/landing/about";
 import Announcements from "../components/landing/announcements";
 import EventsLayout from "../components/landing/events/eventsLayout";
