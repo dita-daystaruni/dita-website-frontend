@@ -1,10 +1,15 @@
 import React from "react";
+import { Tilt } from "react-tilt";
+
+import { defaultOptions } from "../../../utils/animations";
 import GreyRedirectBtn from "./greyRedirectBtn";
 import dummyImage from "../../../assets/unsplash_dsvJgiBJTOs.png";
 
 
+
 const GreyCard = ({ heading, content }) => {
   return (
+    <Tilt options={defaultOptions} className="cursor-pointer">
     <div className="flex flex-col h-full">
       <div className="max-w-sm bg-gray-200 border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700">
         <div>
@@ -31,6 +36,7 @@ const GreyCard = ({ heading, content }) => {
         </div>
       </div>
     </div>
+    </Tilt>
   );
 };
 
