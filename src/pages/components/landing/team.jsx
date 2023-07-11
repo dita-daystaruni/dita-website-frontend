@@ -70,7 +70,7 @@ const Team = () => {
                 {/* import teams utility containing names, pictures and their role */}
                 {team.map((member) => {
                     return (
-                <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                <div key={member.id} className="flex flex-shrink-0 relative w-full sm:w-auto">
                   <img
                     src={member.image}
                     alt={member.name}
