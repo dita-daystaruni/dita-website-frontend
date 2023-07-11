@@ -1,0 +1,119 @@
+From 6adcbc0b3934184d6cfeca94f3e8c0f0c930332c Mon Sep 17 00:00:00 2001
+From: Manu Lamo <straussmoabit@gmail.com>
+Date: Tue, 11 Jul 2023 18:39:19 +0300
+Subject: [PATCH 2/2] feat:revamp_dropdown_and_chat
+
+---
+ src/pages/components/chatbot.jsx        |  6 ++---
+ src/pages/components/landing/header.jsx |  3 +--
+ src/pages/components/navbar.jsx         |  2 +-
+ src/pages/components/sidebar.jsx        | 29 ++++++++++---------------
+ 4 files changed, 16 insertions(+), 24 deletions(-)
+
+diff --git a/src/pages/components/chatbot.jsx b/src/pages/components/chatbot.jsx
+index df6da9e..c0bdbb3 100644
+--- a/src/pages/components/chatbot.jsx
++++ b/src/pages/components/chatbot.jsx
+@@ -11,7 +11,7 @@ export default function Chatbot() {
+   }
+   
+   return (
+-    <div className='fixed bottom-5 right-5'>
++    <div className='fixed bottom-5 max-sm:bottom-12 right-5 max-sm:right-10'>
+         <button className='rounded-full p-5 bg-slate-200 dark:bg-slate-900'
+            onClick={handleButtonClick}>
+             <ChatBubbleBottomCenterIcon className='w-5 h-5 text-black dark:text-white'/>
+@@ -26,8 +26,8 @@ export default function Chatbot() {
+ 
+ export const ChatMsgDialog = () => {
+   return (
+-    <div className='fixed bottom-20 rounded-md drop-shadow-md
+-                    right-5 w-80 h-3/4 p-6 bg-slate-200 dark:bg-slate-900'>
++    <div className='fixed bottom-20 max-sm:bottom-28 rounded-md drop-shadow-md
++                    right-5 w-80 h-3/4 max-sm:h-2/3 p-6 bg-slate-200 dark:bg-slate-900'>
+       <div className='relative flex flex-col h-full'>
+       <section className='flex flex-col justify-between items-center'>
+         <div className="relative">
+diff --git a/src/pages/components/landing/header.jsx b/src/pages/components/landing/header.jsx
+index 91cff60..ad13f2f 100644
+--- a/src/pages/components/landing/header.jsx
++++ b/src/pages/components/landing/header.jsx
+@@ -11,9 +11,8 @@ const Header = () => {
+     <Navbar/>
+     <Sidebar/>
+     <div className="h-3/5 p-5 max-md:p-6 mx-auto my-auto w-full flex flex-col justify-between">
+-        <h1 className='text-7xl font-bold font-sans ml-20 my-auto dark:text-white max-sm:text-5xl max-sm:mx-auto'>DITA WEBSITE</h1>
++        <h1 className='text-7xl font-bold font-sans ml-20 my-auto dark:text-white max-sm:text-5xl max-sm:text-center max-sm:ml-0'>DITA WEBSITE</h1>
+     </div>
+-    <h1 className="dark:text-white max-sm:text-sm text-center">Copyright 2023</h1>
+     <Chatbot/>
+     </main>
+   )
+diff --git a/src/pages/components/navbar.jsx b/src/pages/components/navbar.jsx
+index dced999..9f4ed64 100644
+--- a/src/pages/components/navbar.jsx
++++ b/src/pages/components/navbar.jsx
+@@ -73,7 +73,7 @@ export const Search = () => {
+ 
+ export const Dropdown = () => {
+   return (
+-    <div className='absolute p-5 top-16 right-3 w-9/12 h-auto max-sm:w-11/12 max-sm:
++    <div className='absolute p-5 top-16 right-3 max-sm:right-6 w-9/12 h-auto max-sm:w-11/12 max-sm:
+                     bg-slate-200 dark:bg-slate-900 rounded-md drop-shadow-md'>
+        <div className='relative'>
+           <Toggle/>
+diff --git a/src/pages/components/sidebar.jsx b/src/pages/components/sidebar.jsx
+index 64d7830..3a51276 100644
+--- a/src/pages/components/sidebar.jsx
++++ b/src/pages/components/sidebar.jsx
+@@ -1,36 +1,29 @@
+-// eslint-disable-next-line no-unused-vars
++import { MegaphoneIcon } from '@heroicons/react/24/solid';
++import { BsPeople, BsPersonGear } from 'react-icons/bs';
+ import React from 'react'
++import { FaHome, FaInfoCircle } from 'react-icons/fa';
++import { CalendarIcon } from '@heroicons/react/24/outline';
+ 
+ export default function Sidebar() {
+   return (
+     <div className='bg-slate-400 dark:bg-slate-900 w-12 h-screen fixed top-0 left-0 z-10                      bg-opacity-50 backdrop-blur-sm backdrop-brightness-125 dark:bg-opacity-50 dark:backdrop-brightness-125
+-                      transition-all duration-150
+-                      max-sm:w-full max-sm:h-12'>
++                      transition-all duration-150 
++                      max-sm:w-full max-sm:h-12 max-sm:-top-10 max-sm:hover:top-0'>
+       <Contents/>
+     </div>
+   )
+ }
+ 
+ export const Contents = () => {
++    const icons = [FaHome, FaInfoCircle, CalendarIcon, BsPersonGear, MegaphoneIcon, BsPeople];
+     return (
+         <div className='flex flex-col justify-evenly items-center h-full'>
+         <div className='h-full flex flex-col max-sm:flex-row max-sm:w-full 
+                         justify-around items-center'>
+-            <h1 className='text-xs -rotate-90 font-bold hover:underline hover:underline-offset-4
+-                         text-black dark:text-white max-sm:rotate-0'>WELCOME</h1>
+-            <h1 className='text-xs -rotate-90 font-bold hover:underline hover:underline-offset-4
+-                         text-black dark:text-white max-sm:rotate-0'>ABOUT US</h1>
+-            <h1 className='text-xs -rotate-90 font-bold hover:underline hover:underline-offset-4
+-                         text-black dark:text-white max-sm:rotate-0'>EVENTS</h1>
+-            <h1 className='text-xs -rotate-90 font-bold hover:underline hover:underline-offset-4
+-                         text-black dark:text-white max-sm:rotate-0'>SERVICES</h1>             
+-            <h1 className='text-xs -rotate-90 font-bold hover:underline hover:underline-offset-4
+-                         text-black dark:text-white max-sm:rotate-0'>ANNOUNCEMENTS</h1>
+-            <h1 className='text-xs -rotate-90 font-bold hover:underline hover:underline-offset-4
+-                         text-black dark:text-white max-sm:rotate-0'>PEOPLE AND PARTNERS</h1>             
++            {icons.map((Icon, index) => (
++                <Icon key={index} className='text-black dark:text-white w-5 h-5'/>
++            ))}
+         </div>
+       </div>
+     )
+-}       
+-
+-
++}
+-- 
+2.40.0.windows.1
+
