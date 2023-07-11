@@ -1,6 +1,6 @@
 import { ChatBubbleBottomCenterIcon } from '@heroicons/react/24/outline'
 import React, { useState } from 'react';
-import profile from '../../assets/unsplash_dsvJgiBJTOs.png';
+import profile from '../../../assets/unsplash_dsvJgiBJTOs.png';
 import { BsSendFill } from 'react-icons/bs';
 
 export default function Chatbot() {

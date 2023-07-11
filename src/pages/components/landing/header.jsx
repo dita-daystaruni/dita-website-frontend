@@ -6,7 +6,7 @@ import Chatbot from '../common/chatbot'
 const Header = () => {
   return (
     <main className="flex flex-col h-[100vh] w-full 
-                     bg-gradient-to-tr p-4 from-slate-300 to-blue-500
+                     bg-cover header-photo
                      dark:bg-gradient-to-tr dark:from-slate-900 dark:to-blue-500">
     <Navbar/>
     <Sidebar/>

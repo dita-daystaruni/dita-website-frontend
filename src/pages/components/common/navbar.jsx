@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import useDarkMode from '../../hooks/useDarkMode'
+import useDarkMode from '../../../hooks/useDarkMode'
 import { Switch } from "@headlessui/react"
 import { Bars3Icon, MagnifyingGlassIcon, MoonIcon, SunIcon } from '@heroicons/react/24/solid'
 
