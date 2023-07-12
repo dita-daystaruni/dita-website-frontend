@@ -93,24 +93,24 @@ export const Search = () => {
 
 export const Dropdown = () => {
   return (
-    <div className="flex flex-col gap-5 md:ml-20 p-5 text-3xl max-sm:text-xl max-md:text-2xl hover:cursor-pointer hover:te top-16 h-auto text-black dark:text-white bg-slate-200 dark:bg-slate-900 drop-shadow-md">
+    <div className="flex flex-col gap-5 md:ml-20 p-5 text-3xl max-sm:text-xl max-md:text-2xl top-16 h-auto text-black dark:text-white bg-slate-200 dark:bg-slate-900 drop-shadow-md">
       <div>
         <Toggle />
       </div>
       <div>
-        <p>Home</p>
+        <p className="hover:cursor-pointer hover:underline">Home</p>
       </div>
       <div>
-        <p>About</p>
+        <p className="hover:cursor-pointer hover:underline">About</p>
       </div>
       <div>
-        <p>Events</p>
+        <p className="hover:cursor-pointer hover:underline">Events</p>
       </div>
       <div>
-        <p>Services</p>
+        <p className="hover:cursor-pointer hover:underline">Services</p>
       </div>
       <div>
-        <p>Contact Us</p>
+        <p className="hover:cursor-pointer hover:underline">Contact Us</p>
       </div>
     </div>
   );
