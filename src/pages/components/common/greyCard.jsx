@@ -10,7 +10,7 @@ import dummyImage from "../../../assets/unsplash_dsvJgiBJTOs.png";
 const GreyCard = ({ heading, content }) => {
   return (
     <Tilt options={defaultOptions} className="cursor-pointer">
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col h-full dark:text-white">
       <div className="max-w-sm bg-gray-200 border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700">
         <div>
           {/* TODO: ADD IMAGES TO RESPECTIVE CARDS */}
