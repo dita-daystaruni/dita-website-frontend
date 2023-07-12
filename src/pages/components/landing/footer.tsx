@@ -12,7 +12,7 @@ const Footer = () => {
     <main>
       <div className=" text-white flex justify-center mt-10">
         <section
-          className="bg-custom-navy-blue flex p-10"
+          className="bg-custom-navy-blue flex p-10 overflow-hidden"
           style={{ gap: "4em", marginBottom: "-4em" }}
         >
           <div>
