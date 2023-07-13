@@ -1,6 +1,6 @@
 import { ChatBubbleBottomCenterIcon } from '@heroicons/react/24/outline'
 import React, { useState } from 'react';
-import profile from '../../../assets/unsplash_dsvJgiBJTOs.png';
+import { BsRobot } from 'react-icons/bs';
 import { BsSendFill } from 'react-icons/bs';
 
 export default function Chatbot() {
@@ -26,13 +26,13 @@ export default function Chatbot() {
 
 export const ChatMsgDialog = () => {
   return (
-    <div className='fixed bottom-20 max-sm:bottom-28 rounded-md drop-shadow-md
+    <div className='fixed bottom-24 max-sm:bottom-28 rounded-md drop-shadow-md
                     right-5 w-80 h-3/4 max-sm:h-2/3 p-6 bg-slate-200 dark:bg-slate-900'>
       <div className='relative flex flex-col h-full'>
       <section className='flex flex-col justify-between items-center'>
         <div className="relative">
-            <img alt='profile' src={profile} 
-             className='relative w-16 h-16 rounded-full'/>
+            <BsRobot 
+             className='relative w-14 h-14 text-slate-900 dark:text-slate-300 rounded-full'/>
              <span className='absolute bottom-0 left-0 w-4 h-4 rounded-full border-2 border-slate-200 dark:border-slate-900 bg-green-500'/>
         </div>
         <h1 className='font-semibold dark:text-white'>DITA Chatbot</h1>
