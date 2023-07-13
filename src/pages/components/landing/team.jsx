@@ -77,11 +77,11 @@ const Team = () => {
                     className="object-cover object-center w-full"
                   />
                   <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                    <h2 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">
+                    <h2 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
                       {member.role}
                     </h2>
                     <div className="flex h-full items-end pb-6">
-                      <h3 className="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">
+                      <h3 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
                         {member.name}
                       </h3>
                     </div>

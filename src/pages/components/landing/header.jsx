@@ -5,7 +5,7 @@ import Chatbot from '../common/chatbot'
 
 const Header = () => {
   return (
-    <main className="flex flex-col h-[100vh] w-screen
+    <main className="flex flex-col h-[90vh] w-screen
                      bg-purple-600">
     <Navbar/>
     <Sidebar/>
@@ -14,7 +14,7 @@ const Header = () => {
     </div>
     <Chatbot/>
     </main>
-  )
+  );
 }
 
 export default Header
