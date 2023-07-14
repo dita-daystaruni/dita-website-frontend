@@ -1,6 +1,6 @@
 import React from 'react'
-import Chatbot from '../common/chatbot'
-import bgImage from "../../../../public/unsplash_dsvJgiBJTOs.png";
+import Chatbot from '../../common/chatbot'
+import bgImage from "../../../../../public/unsplash_dsvJgiBJTOs.png";
 
 const Hero = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/navBar";
-import Hero from "../components/landing/hero";
+import Hero from "../components/landing/header/hero";
 import About from "../components/landing/about";
 import Announcements from "../components/landing/announcements";
 import EventsLayout from "../components/landing/events/eventsLayout";
