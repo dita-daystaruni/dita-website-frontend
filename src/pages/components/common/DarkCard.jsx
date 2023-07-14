@@ -1,5 +1,5 @@
 import React from "react";
-import BlueRedirectBtn from "./blueRedirectBtn";
+// import BlueRedirectBtn from "./blueRedirectBtn";
 import { defaultOptions } from "../../../utils/animations";
 import { Tilt } from "react-tilt";
 
