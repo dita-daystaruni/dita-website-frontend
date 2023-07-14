@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../common/navbar'
 import Chatbot from '../common/chatbot'
-import bgImage from "../../../../public/unsplash_dsvJgiBJTOs.png";
+import bgImage from "/unsplash_dsvJgiBJTOs.png";
 
 const Header = () => {
   return (

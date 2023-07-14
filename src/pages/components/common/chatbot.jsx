@@ -25,6 +25,7 @@ export default function Chatbot() {
 }
 
 export const ChatMsgDialog = () => {
+  
   return (
     <div className='fixed bottom-24 max-sm:bottom-28 rounded-md drop-shadow-md
                     right-5 w-80 h-3/4 max-sm:h-2/3 p-6 bg-slate-200 dark:bg-slate-900'>
@@ -39,7 +40,7 @@ export const ChatMsgDialog = () => {
         <h3 className='text-sm text-green-500'>online</h3>
       </section>
       <hr className='border-slate-800 mt-5 dark:border-slate-300'/>
-        <TypeMsg/>
+        <TypeMsg />
       </div>
       
     </div>
@@ -47,23 +48,29 @@ export const ChatMsgDialog = () => {
 }
 
 export const TypeMsg = () => {
-  // const [msg, setMsg] = useState('');
-  // const [msgs, setMsgs] = useState([]);
+  const [msg, setMsg] = useState('');
+  const [msgs, setMsgs] = useState([]);
 
-  // const handleMsgChange = (e) => {
-  //   setMsg(e.target.value);
-  // }
+  const handleMsgChange = (e) => {
+    setMsg(e.target.value);
+  }
 
-  // const handleMsgSubmit = (e) => {
-  //   e.preventDefault();
-  //   setMsgs([...msgs, msg]);
-  //   setMsg('');
-  // }
+  const handleMsgSubmit = (e) => {
+    e.preventDefault();
+    // @ts-ignore
+    setMsgs([...msgs, msg]);
+    setMsg('');
+  }
 
   return (
     <div className='absolute bottom-1 flex flex-row w-full justify-between items-center'>
-      <input className='rounded-full p-2 bg-white w-4/5 h-10'/>
-      <button className='bg-gradient-to-bl rounded-full from-blue-800 to-blue-500 w-9 h-9'>
+      <input
+      onChange={handleMsgChange}
+      value={msg}
+      className='rounded-full p-2 bg-white w-4/5 h-10'/>
+      <button
+       onClick={handleMsgSubmit}
+       className='bg-gradient-to-bl rounded-full from-blue-800 to-blue-500 w-9 h-9'>
           <BsSendFill className="m-auto text-white dark:text-slate-800"/>
       </button>
     </div>
