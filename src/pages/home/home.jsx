@@ -1,5 +1,6 @@
 import React from "react";
-import Header from "../components/landing/header";
+import Navbar from "../components/navBar";
+import Hero from "../components/landing/hero";
 import About from "../components/landing/about";
 import Announcements from "../components/landing/announcements";
 import EventsLayout from "../components/landing/events/eventsLayout";
@@ -11,7 +12,8 @@ import Footer from "../components/landing/footer";
 const Home = () => {
   return (
     <main>
-      <Header/>
+      <Navbar/>
+      <Hero/>
       <About />
       <EventsLayout/>
       <Services/>
