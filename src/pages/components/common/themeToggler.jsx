@@ -1,16 +1,12 @@
 import React from "react";
-import {
-  MoonIcon,
-  SunIcon,
-} from "@heroicons/react/24/solid";
+import { MoonIcon, SunIcon } from "@heroicons/react/24/solid";
 import { Switch } from "@headlessui/react";
-import useDarkMode from '../../../hooks/useDarkMode';
-
+import useDarkMode from "../../../hooks/useDarkMode";
 
 const ThemeToggler = () => {
   const [isDarkMode, toggleDarkMode] = useDarkMode();
   return (
-     <div className="text-2xl w-full flex flex-row items-center">
+    <div className="text-2xl w-full flex flex-row items-center">
       <Switch.Group>
         <Switch
           checked={isDarkMode}

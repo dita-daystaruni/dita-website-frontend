@@ -1,7 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import menuData from "../../../utils/navBar";
-import ThemeToggler from "./themeToggler";
 import ditaLogo from "../../../assets/ditaLogo.png";
 
 const Header = () => {
@@ -27,7 +26,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header top-0 left-0 z-40 flex w-full items-center bg-transparent ${
+        className={`header top-0 left-0 z-40 flex w-full items-center bg-transparent overflow-hidden ${
           sticky
             ? "!fixed !z-[9999] !bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm !transition dark:!bg-primary dark:!bg-opacity-20"
             : "absolute"
@@ -44,17 +43,8 @@ const Header = () => {
               >
                 <img
                   src={ditaLogo}
-                  alt="o"
-                  width={140}
-                  height={30}
-                  className="w-full dark:hidden ml-10"
-                />
-                <img
-                  src={ditaLogo}
-                  alt="niooiioj"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block ml-10"
+                  alt="Dita"
+                  className="w-full h-auto max-h-[50px] object-contain"
                 />
               </a>
             </div>
@@ -84,7 +74,7 @@ const Header = () => {
                 </button>
                 <nav
                   id="navbarCollapse"
-                  className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white py-4 px-6 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
+                  className={`navbar absolute right-0 z-100 w-[250px] rounded border-[.5px] border-body-color/50 bg-white py-4 px-6 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
                     navbarOpen
                       ? "visibility top-full opacity-100"
                       : "invisible top-[120%] opacity-0"
@@ -95,7 +85,7 @@ const Header = () => {
                       <li key={menuItem.id} className="group relative">
                         <a
                           href={menuItem.path}
-                          className={`flex py-2 text-lg text-bold text-dark group-hover:opacity-100 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 hover:underline`}
+                          className={`flex py-2 text-lg font-semi text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                         >
                           {menuItem.title}
                         </a>
@@ -103,9 +93,6 @@ const Header = () => {
                     ))}
                   </ul>
                 </nav>
-              </div>
-              <div>
-                <ThemeToggler />
               </div>
             </div>
           </div>
