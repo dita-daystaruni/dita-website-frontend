@@ -28,7 +28,7 @@ const GreyCard = ({ heading, content }) => {
             {content}
           </p>
           <div>
-            <GreyRedirectBtn margin_top_bottom="my-10" margin_right=""/>
+            <GreyRedirectBtn margin_top_bottom="my-10" margin_right="" text=""/>
           </div>
           <div className="border-t border-black">
             <p className="mt-4">ICT theater ・ 25 Januari 2023 ・ 10:05</p>
