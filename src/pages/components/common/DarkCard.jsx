@@ -1,5 +1,4 @@
 import React from "react";
-// import BlueRedirectBtn from "./blueRedirectBtn";
 import { defaultOptions } from "../../../utils/animations";
 import { Tilt } from "react-tilt";
 
@@ -23,7 +22,6 @@ const DarkCard = ({ title, date,image,description,location,time }) => {
               {/* TODO: DYNAMICALLY CHANGE CONTENT*/}
               {description}
             </p>
-            {/* <BlueRedirectBtn /> */}
             <div className="border-t border-black">
               <p className="mt-4">{location} ・ {date} ・ {time}</p>
             </div>
