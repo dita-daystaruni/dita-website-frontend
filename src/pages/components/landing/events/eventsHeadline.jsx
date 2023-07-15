@@ -2,7 +2,6 @@ import React from 'react'
 
 import seatsVenue from '../../../../assets/Rectangle 9(1).png'
 import EventsParagraph from './eventsParagraph'
-import BlueRedirectBtn from '../../common/blueRedirectBtn';
 
 const EventsHeadline = () => {
   return (
@@ -16,29 +15,32 @@ const EventsHeadline = () => {
       {/* Div for second flex item */}
       <div className="max-w-md mt-12 p-5 mx-24 max-sm:p-0 max-md:mx-5">
         <h3 className="font-normal mb-6">
-          Campus News berisikan berita-berita terupdate seputar STMIK
-          “AMIKBANDUNG”
+          Discover the Vibrant Community of DITA: Daytstar University's Resource
+          Lab for Computer Science Enthusiasts
         </h3>
-        <h4 className="font-light mb-4">Hot News | Trending#1</h4>
+        <h4 className="font-light mb-4">Exciting Update | Must-Know</h4>
         <h3 className="font-semibold mb-4">
-          8 Semester tak Kunjung Menerima Uang Saku Gerakan Mahasiswa Anti Asmui
-          Laporkan Kasus Ke Pengadilan.
+          Empowering DITA Members: why should you join dita?
         </h3>
         <EventsParagraph>
-          Lorem ipsum dolor sit amet consectetur. Ullamcorper euis- mod
-          phasellus mattis sociis sagittis aenean turpis purus lectus. In
-          quisque tincidunt magna posuere ut donec.
+          DITA (Daytstar University's Resource Lab) is a bustling haven for
+          computer science enthusiasts at Daytstar University. It serves as a
+          meeting ground for brilliant minds who gather to work, collaborate,
+          and exchange ideas, pushing the boundaries of innovation and progress.
         </EventsParagraph>
         <EventsParagraph>
-          Laoreet sed tellus molestie sed erat dignissim. Vitae nunc maecenas
-          nulla mi venenatis facilisi maecenas id. Eget suspendisse morbi
-          dignissim ultrices ut facilisi aenean parturient. Tincidunt elit a
-          posuere cursus. Et egestas mag.
+          Within the walls of DITA, a sense of intellectual camaraderie thrives
+          as members engage in stimulating conversations and share their
+          expertise. The lab fosters a culture of continuous learning and
+          provides a platform for students to sharpen their skills and explore
+          new frontiers in computer science.
         </EventsParagraph>
         <EventsParagraph>
-          id egestas duis at egestas etiam sed. Neque id viverra....
+          DITA is a hub of activity, hosting various events such as coding
+          competitions, workshops, and seminars. Here, individuals with a shared
+          passion for technology come together to inspire and challenge each
+          other, propelling their knowledge and capabilities to new heights.
         </EventsParagraph>
-          <BlueRedirectBtn/>
       </div>
     </section>
   );
