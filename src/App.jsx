@@ -5,7 +5,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>}/>
