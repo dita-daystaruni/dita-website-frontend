@@ -48,7 +48,7 @@ const Footer = () => {
               <h1 className="font-semibold text-lg">Contact Us</h1>
               {contactUs.map((contact) => {
                 return (
-                  <div key={contact.id}>
+                  <div id="contact" key={contact.id}>
                     <a className="flex content-center" href={contact.link}>
                       {contact.icon}
                       {contact.name}

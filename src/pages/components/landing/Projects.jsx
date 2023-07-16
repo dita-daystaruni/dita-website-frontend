@@ -7,7 +7,7 @@ import swapSokoProject from '../../../assets/projects/swapSokoProject.png';
 const Projects = () => {
 
   return (
-    <section className="bg-black text-white pb-10 px-20 max-sm:px-5">
+    <section className="bg-black text-white pb-10 px-20 max-sm:px-5" id="projects">
       <div className="flex justify-between pt-10 max-sm:flex-col">
         <h3 className="font-bold text-2xl mb-10">OUR PROJECTS</h3>
       </div>

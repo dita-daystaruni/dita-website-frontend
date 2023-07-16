@@ -23,7 +23,7 @@ const EventsLayout = () => {
   }, []);
 
   return (
-    <main className="bg-black text-white pb-10">
+    <main className="bg-black text-white pb-10" id="events">
       <EventsHeadline />
       <div className="flex justify-center md:px-5 ">
         <div className="grid grid-cols-3 gap-10 items-center mt-4 max-sm:grid-cols-1">

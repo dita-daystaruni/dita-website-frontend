@@ -7,7 +7,7 @@ import teaching from "../../../assets/teaching.jpg"
 const Services = () => {
   return (
     <section className="pb-10">
-      <div className="px-20 max-sm:px-5">
+      <div className="px-20 max-sm:px-5" id="services">
         <div className="flex justify-between pt-10 max-sm:flex-col">
           <h3 className="font-bold text-2xl mb-10">SERVICES WE OFFER</h3>
         </div>

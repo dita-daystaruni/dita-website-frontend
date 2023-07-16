@@ -15,7 +15,7 @@ const About = () => {
   }, [isInView,animate,scope]);
 
   return (
-    <main className="max-w-full bg-gray-200">
+    <main className="max-w-full bg-gray-200 ease-in" id="about">
       <section className="md:flex md:justify-between max-lg:flex-col">
         <div className="md:py-10 md:px-10 max-w-lg ml-24 p-10 mr-24 max-sm:py-5 max-sm:px-0 max-sm:mx-5">
           <h3 className="font-bold text-2xl mb-5">What is DITA</h3>
