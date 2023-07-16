@@ -13,6 +13,7 @@ const Hero = () => {
         backgroundPosition: "center",
         backgroundColor: "#000000",
       }}
+      id="home"
     >
       <div className="dark:text-white ml-20 p-5 max-md:p-6 max-md:ml-5 mx-auto my-auto w-full flex flex-col justify-between">
         <h3 className="font-bold">Unlocking Potential Through Technology.</h3>
