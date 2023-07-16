@@ -1,6 +1,5 @@
 import React from "react";
 import {HiOutlineMail, HiOutlineLocationMarker } from "react-icons/hi";
-import { IoCallOutline } from "react-icons/io5";
 import { FaTwitter, FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 
