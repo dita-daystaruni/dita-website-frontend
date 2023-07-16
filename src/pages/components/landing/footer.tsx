@@ -21,31 +21,19 @@ const Footer = () => {
               className="border-2 p-5 font-semibold"
               style={{ borderWidth: "5px" }}
             >
-              DAFTAR SEKARANG
+              Our Mission
             </button>
           </div>
-          <p className="m-10">
-            Ayo bergabung dengan STMIK “AMIKBANDUNG” dan bangun masa depanmu
-            dengan program studi terbaik
+          <p className="text-lg p-10 m-10">
+            To Empower Daystar Community and Beyond with enough Information
+            Technology Skills.
           </p>
         </section>
       </div>
       <div className="bg-black text-white">
         <footer className="pt-10">
           <section className="md:flex w-full content-center justify-between px-20 py-10">
-            <h1 className="font-bold text-xl">BRAND</h1>
-            <div className="flex flex-col gap-4">
-              <h1 className="font-semibold text-lg">About Campus</h1>
-              {aboutCampus.map((about) => {
-                return (
-                  <div key={about.id} className="mb-2">
-                    <a className="hover:underline" href={about.link}>
-                      {about.name}
-                    </a>
-                  </div>
-                );
-              })}
-            </div>
+            <h1 className="font-bold text-xl">DITA</h1>
             <div className="flex flex-col gap-4">
               <h1 className="font-semibold text-lg">Related Links</h1>
               {relatedLinks.map((related) => {
@@ -60,7 +48,7 @@ const Footer = () => {
               <h1 className="font-semibold text-lg">Contact Us</h1>
               {contactUs.map((contact) => {
                 return (
-                  <div key={contact.id}>
+                  <div id="contact" key={contact.id}>
                     <a className="flex content-center" href={contact.link}>
                       {contact.icon}
                       {contact.name}
@@ -95,7 +83,7 @@ const Footer = () => {
             paddingBottom: "2em",
           }}
         >
-          2023 | STMIK “AMIKBANDUNG”. All Right Reserved
+          2023 | All Right Reserved
         </p>
       </div>
     </main>

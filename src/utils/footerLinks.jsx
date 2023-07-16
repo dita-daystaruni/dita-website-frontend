@@ -1,30 +1,9 @@
 import React from "react";
 import {HiOutlineMail, HiOutlineLocationMarker } from "react-icons/hi";
-import { IoCallOutline } from "react-icons/io5";
 import { FaTwitter, FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 
 export const aboutCampus = [
-  {
-    id: 0,
-    name: "News",
-    link: "#",
-  },
-  {
-    id: 1,
-    name: "Campus History",
-    link: "#",
-  },
-  {
-    id: 2,
-    name: "Vision and Mission",
-    link: "#",
-  },
-  {
-    id: 3,
-    name: "PMB",
-    link: "#",
-  },
 ];
 
 export const relatedLinks = [
@@ -53,20 +32,14 @@ export const relatedLinks = [
 export const contactUs = [
   {
     id: 0,
-    name: "info@stmik-amikbandung.ac.id",
-    icon: <HiOutlineMail />,
-    link: "#",
-  },
-  {
-    id: 1,
-    name: "0811-2391-136",
-    icon: <IoCallOutline />,
+    name: "dita@outlook.com",
+    icon: <HiOutlineMail size={22}/>,
     link: "#",
   },
   {
     id: 2,
-    name: "Jl. Jakarta No.28, Bandung",
-    icon: <HiOutlineLocationMarker />,
+    name: "Daystar University, ATHI RIVER, Kenya",
+    icon: <HiOutlineLocationMarker size={22}/>,
     link: "#",
   },
 ];

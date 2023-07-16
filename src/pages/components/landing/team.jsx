@@ -1,7 +1,6 @@
 import React from 'react'
 import { useRef } from 'react';
 
-import GreyRedirectBtn from "../common/greyRedirectBtn";
 import { team } from '../../../utils/team';
 
 const Team = () => {
@@ -25,15 +24,19 @@ const Team = () => {
     <section className="flex justify-between py-20 max-sm:flex-col">
       {/* FIrst div */}
       <div className="max-w-sm mx-20 max-sm:mx-10">
-        <h3 className="font-bold text-2xl mb-10">
-          KIPRAH DOSEN TENAGA PENDIDIKAN DAN MAHASISWA
-        </h3>
-        <p>
-          STMIK “AMIKBANDUNG” selalu memiliki dosen berpengalaman dan
-          berkompeten, serta memiliki mahasiswa yang berpotensi dan terampil
-          yang selalu mengharumkan nama bangsa Indonesia di tiap angkatannya.
+        <h3 className="font-bold text-2xl mb-10">MEET THE TEAM</h3>
+        <p className="leading-relaxed">
+          Our dynamic team of passionate tech enthusiasts is dedicated to
+          fostering <b>innovation</b> , <b>enhancing digital literacy</b>, and
+          driving <b>technological advancement</b> . From designing cutting-edge
+          applications to empowering students with hands-on coding workshops, we
+          strive to create a collaborative environment where creativity and
+          problem-solving thrive. With a shared vision of <b> leveraging
+          technology to transform lives and impact communities</b>, we continuously
+          explore emerging trends and apply our expertise to drive positive
+          change. Join us on this exciting journey of discovery and growth in
+          the world of technology!
         </p>
-        <GreyRedirectBtn margin_right={0} margin_top_bottom="my-10" />
       </div>
       <div className="max-w-full">
         <div className="flex items-center justify-center w-full h-full sm: px-4">
@@ -69,26 +72,29 @@ const Team = () => {
               >
                 {/* import teams utility containing names, pictures and their role */}
                 {team.map((member) => {
-                    return (
-                <div key={member.id} className="flex flex-shrink-0 relative w-full sm:w-auto">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="object-cover object-center w-full"
-                  />
-                  <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                    <h2 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
-                      {member.role}
-                    </h2>
-                    <div className="flex h-full items-end pb-6">
-                      <h3 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
-                        {member.name}
-                      </h3>
+                  return (
+                    <div
+                      key={member.id}
+                      className="flex flex-shrink-0 relative w-full sm:w-auto"
+                    >
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        className="object-cover object-center w-[250px] h-[400px]"
+                      />
+                      <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                        <h2 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
+                          {member.role}
+                        </h2>
+                        <div className="flex h-full items-end pb-6">
+                          <h3 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
+                            {member.name}
+                          </h3>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>   
-                )})
-                }
+                  );
+                })}
               </div>
             </div>
             <button

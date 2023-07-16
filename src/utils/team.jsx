@@ -1,23 +1,45 @@
-import head1 from '../assets/head1.png';
-import head2 from '../assets/head2.png';
+import clubPatron from "../assets/team/clubPatron.jpg"
+import Newton from "../assets/team/Newton.jpg";
+import Sheila from "../assets/team/Sheila.jpg";
+import Carl from "../assets/team/Carl.jpg";
+import Chris from "../assets/team/Chris.jpg";
+import Egesa from "../assets/team/Egesa.jpg";
 
-export const team=[
-    {
-        id:0,
-        name:"John Doe",
-        role:"CEO",
-        image: head1,
-    },
-    {
-        id:1,
-        name:"Jane Doe",
-        role:"CTO",
-        image: head2,
-    },
-    {
-        id:2,
-        name:"John Smith",
-        role:"CFO",
-        image: head1,
-    },
-]
+export const team = [
+  {
+    id: 0,
+    name: "Zippora Mwololo",
+    role: "PATRON",
+    image: clubPatron,
+  },
+  {
+    id: 1,
+    name: "Newton Mutugi",
+    role: "PRESIDENT",
+    image: Newton,
+  },
+  {
+    id: 2,
+    name: "Sheila",
+    role: "VICE PRESIDENT",
+    image: Sheila,
+  },
+  {
+    id: 2,
+    name: "Carl Munene",
+    role: "SECRETARY",
+    image: Carl,
+  },
+  {
+    id: 2,
+    name: "Chris",
+    role: "TREASURER",
+    image: Chris,
+  },
+  {
+    id: 2,
+    name: "Sheila",
+    role: "GOOGLE STUDENT AMBASSADOR",
+    image: Egesa,
+  },
+];

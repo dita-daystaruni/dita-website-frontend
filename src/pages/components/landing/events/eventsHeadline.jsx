@@ -1,6 +1,6 @@
 import React from 'react'
 
-import seatsVenue from '../../../../assets/Rectangle 9(1).png'
+import seatsVenue from "../../../../assets/daystarICT.jpg";
 import EventsParagraph from './eventsParagraph'
 
 const EventsHeadline = () => {
