@@ -32,14 +32,14 @@ export const team = [
   },
   {
     id: 2,
-    name: "Sheil",
-    role: "VICE PRESIDENT",
-    image: Sheila,
+    name: "Chris",
+    role: "TREASURER",
+    image: Chris,
   },
   {
     id: 2,
     name: "Sheila",
-    role: "VICE PRESIDENT",
-    image: Sheila,
+    role: "GOOGLE STUDENT AMBASSADOR",
+    image: Egesa,
   },
 ];
