@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { motion, useAnimate,useInView } from "framer-motion";
 
-import about1 from "../../../assets/unsplash_gQtUcKahZoQ.png";
-import about2 from "../../../assets/unsplash_dsvJgiBJTOs.png";
 import GreyRedirectBtn from "../common/greyRedirectBtn";
+import athi_main from '../../../assets/athi_main.png';
+import athiCampus from '../../../assets/athiCampus.png';
 
 const About = () => {
  const [scope, animate] = useAnimate();
@@ -45,7 +45,7 @@ const About = () => {
           <img
             className="md:max-w-lg md:p-10 mr-24 max-sm:p-0 max-sm:ml-0"
             alt="campus view"
-            src={about1}
+            src={athi_main}
           />
         </div>
       </section>
@@ -54,7 +54,7 @@ const About = () => {
         <img
           className="sm:max-w-lg md:p-10 md:ml-24 max-sm:p-0 max-sm:ml:0 max-sm:mt-10"
           alt="lecture theater"
-          src={about2}
+          src={athiCampus}
         />
         <div className="md:py-10 md:px-10 md:max-w-lg md:ml-24 md:mt-10 md:p-10 md:mr-24 max-sm:px-5 py-8">
           <h3 className="font-bold text-2xl mb-5">SEE OUR PROJECTS</h3>
@@ -76,7 +76,7 @@ const About = () => {
               <GreyRedirectBtn
                 margin_right={0}
                 margin_top_bottom={0}
-                text="Our Services"
+                text="Our Projects"
               />
             </div>
           </motion.p>
