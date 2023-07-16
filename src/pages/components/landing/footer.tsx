@@ -21,12 +21,12 @@ const Footer = () => {
               className="border-2 p-5 font-semibold"
               style={{ borderWidth: "5px" }}
             >
-              DAFTAR SEKARANG
+              Our Mission
             </button>
           </div>
-          <p className="m-10">
-            Ayo bergabung dengan STMIK “AMIKBANDUNG” dan bangun masa depanmu
-            dengan program studi terbaik
+          <p className="text-lg p-10 m-10">
+            To Empower Daystar Community and Beyond with enough Information
+            Technology Skills.
           </p>
         </section>
       </div>
