@@ -34,13 +34,13 @@ export const contactUs = [
   {
     id: 0,
     name: "dita@outlook.com",
-    icon: <HiOutlineMail />,
+    icon: <HiOutlineMail size={22}/>,
     link: "#",
   },
   {
     id: 2,
     name: "Daystar University, ATHI RIVER, Kenya",
-    icon: <HiOutlineLocationMarker />,
+    icon: <HiOutlineLocationMarker size={22}/>,
     link: "#",
   },
 ];
