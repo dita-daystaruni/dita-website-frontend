@@ -33,19 +33,7 @@ const Footer = () => {
       <div className="bg-black text-white">
         <footer className="pt-10">
           <section className="md:flex w-full content-center justify-between px-20 py-10">
-            <h1 className="font-bold text-xl">BRAND</h1>
-            <div className="flex flex-col gap-4">
-              <h1 className="font-semibold text-lg">About Campus</h1>
-              {aboutCampus.map((about) => {
-                return (
-                  <div key={about.id} className="mb-2">
-                    <a className="hover:underline" href={about.link}>
-                      {about.name}
-                    </a>
-                  </div>
-                );
-              })}
-            </div>
+            <h1 className="font-bold text-xl">DITA</h1>
             <div className="flex flex-col gap-4">
               <h1 className="font-semibold text-lg">Related Links</h1>
               {relatedLinks.map((related) => {
@@ -95,7 +83,7 @@ const Footer = () => {
             paddingBottom: "2em",
           }}
         >
-          2023 | STMIK “AMIKBANDUNG”. All Right Reserved
+          2023 | All Right Reserved
         </p>
       </div>
     </main>
