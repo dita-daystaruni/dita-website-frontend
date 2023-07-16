@@ -2,7 +2,7 @@ import React from "react";
 import { defaultOptions } from "../../../utils/animations";
 import { Tilt } from "react-tilt";
 
-const DarkCard = ({ title, date,image,description,location,time }) => {
+const DarkCard = ({ title, date,image,description,location,time, link,github }) => {
   return (
     <Tilt options={defaultOptions} className="cursor-pointer">
       <div className="flex flex-col h-full">
@@ -27,6 +27,23 @@ const DarkCard = ({ title, date,image,description,location,time }) => {
                 {location} ・ {date}
               </p>
             </div>
+            {github && (
+              <section>
+              <div className="flex justify-between mt-4">
+                <a href={github} className="text-blue-500 hover:underline">
+                  View Github
+                </a>
+              </div>
+              </section>
+            )}
+            {link && (
+              <div className="flex justify-between mt-4">
+                <a href={link} className="text-blue-500 hover:underline">
+                  View Project
+                </a>
+                <p className="text-gray-500">{time}</p>
+              </div>
+            )}
           </div>
         </div>
       </div>
