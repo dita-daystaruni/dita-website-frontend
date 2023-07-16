@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/navBar";
 import Hero from "../components/landing/header/hero";
 import About from "../components/landing/about";
-import Announcements from "../components/landing/announcements";
+import Projects from "../components/landing/Projects";
 import EventsLayout from "../components/landing/events/eventsLayout";
 import Patnership from "../components/landing/patnership";
 import Services from "../components/landing/services";
@@ -12,15 +12,15 @@ import Footer from "../components/landing/footer";
 const Home = () => {
   return (
     <main>
-      <Navbar/>
-      <Hero/>
+      <Navbar />
+      <Hero />
       <About />
-      <EventsLayout/>
-      <Services/>
-      <Announcements/>
-      <Team/>
-      <Patnership/>
-      <Footer/>
+      <EventsLayout />
+      <Services />
+      <Projects />
+      <Team />
+      <Patnership />
+      <Footer />
     </main>
   );
 };
