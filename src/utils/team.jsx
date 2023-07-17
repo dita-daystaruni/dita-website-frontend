@@ -4,6 +4,9 @@ import Sheila from "../assets/team/Sheila.jpg";
 import Carl from "../assets/team/Carl.jpg";
 import Chris from "../assets/team/Chris.jpg";
 import Egesa from "../assets/team/Egesa.jpg";
+import Hilda from "../assets/team/hilda.jpg";
+import Ryan from "../assets/team/ryan.jpg";
+import cheptoo from '../assets/team/cheptoo.png';
 
 export const team = [
   {
@@ -20,25 +23,43 @@ export const team = [
   },
   {
     id: 2,
-    name: "Sheila",
+    name: "Mercy Thiga",
     role: "VICE PRESIDENT",
     image: Sheila,
   },
   {
-    id: 2,
+    id: 3,
     name: "Carl Munene",
     role: "SECRETARY",
     image: Carl,
   },
   {
-    id: 2,
-    name: "Chris",
-    role: "TREASURER",
+    id: 4,
+    name: "Chris Kinugi",
+    role: "RESOURCES MANAGER",
     image: Chris,
   },
   {
-    id: 2,
-    name: "Sheila",
+    id: 6,
+    name: "Ryan Mwaniki",
+    role: "PR MANAGER",
+    image: Ryan,
+  },
+  {
+    id: 8,
+    name: "Abigel Cheptoo",
+    role: "Organizing Secretary",
+    image: cheptoo,
+  },
+  {
+    id: 9,
+    name: "Hilda Muthoni",
+    role: "Organizing Secretary",
+    image: Hilda,
+  },
+  {
+    id: 5,
+    name: "Egesa",
     role: "GOOGLE STUDENT AMBASSADOR",
     image: Egesa,
   },
