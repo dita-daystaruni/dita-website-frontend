@@ -1,7 +1,6 @@
 import React from "react";
 
 import {
-  aboutCampus,
   contactUs,
   relatedLinks,
   socialMediaLinks,
