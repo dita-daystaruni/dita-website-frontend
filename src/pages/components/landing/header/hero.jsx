@@ -1,29 +1,28 @@
-import React from 'react'
-import Chatbot from '../../common/chatbot'
-import hero from "../../../../assets/hero2.jpg";
+import React from "react";
+import hero from "../../../../assets/hero3.jpg";
+import Chatbot from "../../common/chatbot";
 
 const Hero = () => {
   return (
-    <main
-      className="flex flex-col h-[90vh] w-full bg-gradient-to-tr dark:from-slate-900 dark:to-blue-500 max-lg:h-[60vh] max-sm:h-[50vh]"
-      style={{
-        backgroundImage: `url(${hero})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundColor: "#000000",
-      }}
-      id="home"
-    >
-      <div className="dark:text-white ml-20 p-5 max-md:p-6 max-md:ml-5 mx-auto my-auto w-full flex flex-col justify-between">
-        <h3 className="font-bold">Unlocking Potential Through Technology.</h3>
+    <div className="w-full h-[70vh] sm:h-[90vh] relative" id="home">
+      <img
+        src={hero}
+        alt="Background Placeholder"
+        className="w-full h-[70vh] sm:h-[90vh] object-cover"
+      />
+      {/* overlay div */}
+      <div className="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,.6)]" />
+      <div className="absolute w-full h-full top-0 flex flex-col justify-center items-start px-[14px] sm:px-[1em] md:px-[3em] lg:px-[5em] text-white">
+        <h3 className="text-white font-bold">
+          Unlocking Potential Through Technology.
+        </h3>
         <h1 className="text-7xl font-bold font-sans max-sm:text-4xl max-sm:ml-0">
           Elevate. Innovate.
         </h1>
       </div>
       <Chatbot />
-    </main>
+    </div>
   );
-}
+};
 
-export default Hero
+export default Hero;
