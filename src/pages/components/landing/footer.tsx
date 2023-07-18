@@ -11,7 +11,7 @@ const Footer = () => {
     <main>
       <div className=" text-white flex justify-center mt-10">
         <section
-          className="bg-custom-navy-blue flex p-10 overflow-hidden"
+          className="bg-custom-navy-blue flex p-10 overflow-hidden flex-row max-sm:flex-col"
           style={{ gap: "4em", marginBottom: "-4em" }}
         >
           <div>
@@ -23,7 +23,7 @@ const Footer = () => {
               Our Mission
             </button>
           </div>
-          <p className="text-lg p-10 m-10">
+          <p className="text-lg p-0 sm:p-5 m-10">
             To Empower Daystar Community and Beyond with enough Information
             Technology Skills.
           </p>
