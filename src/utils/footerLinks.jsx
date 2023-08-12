@@ -23,14 +23,14 @@ export const contactUs = [
   {
     id: 0,
     name: "dita@daystar.com",
-    icon: <HiOutlineMail size={22}/>,
+    icon: <HiOutlineMail size={22} />,
     link: "#",
   },
   {
     id: 2,
     name: "Daystar University, ATHI RIVER, Kenya",
-    icon: <HiOutlineLocationMarker size={22}/>,
-    link: "#",
+    icon: <HiOutlineLocationMarker size={22} />,
+    link: "https://www.google.com/search?client=firefox-b-d&sca_esv=556283150&tbs=lf:1,lf_ui:2&tbm=lcl&q=daystar+athi+river&rflfq=1&num=10&rldimm=8008581111557565122&ved=2ahUKEwifxOD-hteAAxUraqQEHW5kCtQQu9QIegQIFxAM#rlfi=hd:;si:15838964805034482325,l,ChJkYXlzdGFyIGF0aGkgcml2ZXJI0Nm6AlocEAAYABgBGAIiEmRheXN0YXIgYXRoaSByaXZlcpIBCnVuaXZlcnNpdHmqAUgQASoLIgdkYXlzdGFyKAAyHxABIhs4-oiECcpChLsDMA1gYih2KRfv-BB8X1rDl-0yFhACIhJkYXlzdGFyIGF0aGkgcml2ZXI;mv:[[-1.4351547,37.050985499999996],[-1.4816166,36.972613599999995]]",
   },
 ];
 
