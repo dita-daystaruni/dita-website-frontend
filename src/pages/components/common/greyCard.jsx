@@ -27,7 +27,7 @@ const GreyCard = ({ heading, content,image }) => {
             </div>
             <div className="border-t border-black">
               <p className="mt-4">
-                Daytsar University ・ DITA Resource lab ・ Athi-River ・
+                Daystar University ・ DITA Resource lab ・ Athi-River ・
               </p>
             </div>
           </div>
