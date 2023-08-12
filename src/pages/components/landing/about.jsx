@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { motion, useAnimate,useInView } from "framer-motion";
+import { CgScrollV } from "react-icons/cg";
+
 
 import athi_main from '../../../assets/athi_main.png';
 import athiCampus from '../../../assets/athiCampus.png';
@@ -68,11 +70,14 @@ const About = () => {
               ease: [0, 0.71, 0.2, 1.01],
             }}
           >
-            Take a look at some of the projects that we&apos;ve been
-            responsiblefor since we began this communivty of technologists
-            amongst us in Daystar Univeristy.
+            Take a look at some of our cool and innovative projects from our
+            members!
+            <br/>
+            <p className="mt-[2em] font-semibold text-slate-500 flex">
+              <CgScrollV size={22}/>
+              Scroll down to projects</p>
             <div className="text-left mt-10">
-            {/* TODO: ADD REDIRECT TO PROJECTS SECTION */}
+              {/* TODO: ADD REDIRECT TO PROJECTS SECTION */}
             </div>
           </motion.p>
         </div>
