@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { motion, useAnimate,useInView } from "framer-motion";
 
-import GreyRedirectBtn from "../common/greyRedirectBtn";
 import athi_main from '../../../assets/athi_main.png';
 import athiCampus from '../../../assets/athiCampus.png';
 
@@ -69,15 +68,11 @@ const About = () => {
               ease: [0, 0.71, 0.2, 1.01],
             }}
           >
-            Take a look at some of the prrojects that we&apos;ve been
+            Take a look at some of the projects that we&apos;ve been
             responsiblefor since we began this communivty of technologists
             amongst us in Daystar Univeristy.
             <div className="text-left mt-10">
-              <GreyRedirectBtn
-                margin_right={0}
-                margin_top_bottom={0}
-                text="Our Projects"
-              />
+            {/* TODO: ADD REDIRECT TO PROJECTS SECTION */}
             </div>
           </motion.p>
         </div>

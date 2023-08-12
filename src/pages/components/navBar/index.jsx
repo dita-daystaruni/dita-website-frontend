@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import ditaLogo from "../../../assets/ditaLogo.png";
-import ThemeToggler from "../common/themeToggler";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -60,9 +59,7 @@ const Navbar = () => {
             >
               Contact
             </button>
-            <div className="ml-auto">
-              <ThemeToggler />
-            </div>
+            {/* TODO: ADD THEME TOGGLER */}
           </div>
         </div>
       </div>

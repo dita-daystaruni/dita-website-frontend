@@ -1,7 +1,7 @@
 import React from "react";
 import {HiOutlineMail, HiOutlineLocationMarker } from "react-icons/hi";
-import { FaTwitter, FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
-import { AiFillGithub } from "react-icons/ai";
+import { FaInstagram} from "react-icons/fa";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 export const aboutCampus = [
 ];
@@ -10,22 +10,12 @@ export const relatedLinks = [
   {
     id: 0,
     name: "E-Learning",
-    link: "#",
+    link: "https://elearning.daystar.ac.ke/login/index.php",
   },
   {
     id: 1,
-    name: "Academic",
-    link: "#",
-  },
-  {
-    id: 2,
-    name: "Student Affairs",
-    link: "#",
-  },
-  {
-    id: 3,
-    name: "Library",
-    link: "#",
+    name: "Student Portal",
+    link: "https://student.daystar.ac.ke/",
   },
 ];
 
@@ -46,29 +36,19 @@ export const contactUs = [
 
 export const socialMediaLinks = [
   {
-    id: 0,
-    icon: <FaTwitter />,
-    link: "#",
-  },
-  {
-    id: 1,
-    icon: <FaYoutube />,
-    link: "#",
-  },
-  {
     id: 2,
-    icon: <FaFacebook />,
+    icon: <AiFillLinkedin size={22} />,
     link: "#",
   },
   {
     id: 3,
-    icon: <AiFillGithub />,
-    link: "#",
+    icon: <AiFillGithub size={22} />,
+    link: "https://github.com/dita-daystaruni",
   },
   {
     id: 4,
-    icon: <FaInstagram />,
-    link: "#",
+    icon: <FaInstagram size={22} />,
+    link: "https://instagram.com/dita.daystar?igshid=MzRlODBiNWFlZA==",
   },
 ];
 
