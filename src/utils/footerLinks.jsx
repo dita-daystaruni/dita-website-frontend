@@ -22,7 +22,7 @@ export const relatedLinks = [
 export const contactUs = [
   {
     id: 0,
-    name: "dita@outlook.com",
+    name: "dita@daystar.com",
     icon: <HiOutlineMail size={22}/>,
     link: "#",
   },
@@ -38,7 +38,7 @@ export const socialMediaLinks = [
   {
     id: 2,
     icon: <AiFillLinkedin size={22} />,
-    link: "#",
+    link: "https://www.linkedin.com/company/dita-daystar-university",
   },
   {
     id: 3,
