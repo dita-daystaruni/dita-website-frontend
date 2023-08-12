@@ -1,6 +1,5 @@
 import React from "react";
 import hero from "../../../../assets/hero3.jpg";
-import Chatbot from "../../common/chatbot";
 
 const Hero = () => {
   return (
@@ -20,7 +19,7 @@ const Hero = () => {
           Elevate. Innovate.
         </h1>
       </div>
-      <Chatbot />
+      {/* TODO: ADD CHATBOT */}
     </div>
   );
 };
