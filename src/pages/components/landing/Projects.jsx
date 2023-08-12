@@ -7,7 +7,10 @@ import swapSokoProject from '../../../assets/projects/swapSokoProject.png';
 const Projects = () => {
 
   return (
-    <section className="bg-black text-white pb-10 px-20 max-sm:px-5" id="projects">
+    <section
+      className="bg-black text-white pb-10 px-20 max-sm:px-5"
+      id="projects"
+    >
       <div className="flex justify-between pt-10 max-sm:flex-col">
         <h3 className="font-bold text-2xl mb-10">OUR PROJECTS</h3>
       </div>
@@ -28,10 +31,10 @@ const Projects = () => {
             description="Daystar exam time table app. Built with React, Tailwind CSS and Nodejs."
             image={examTimeTableProject}
             date="September 2021"
-            location="https://dita-website.vercel.app/"
+            location="https://exam.dita.co.ke/"
             time="live"
             link="https://exam.dita.co.ke/"
-            github="https://github.com/dita-daystaruni/exam-timetable"
+            github="https://github.com/dita-daystaruni"
           />
           <DarkCard
             title="Swap Soko"

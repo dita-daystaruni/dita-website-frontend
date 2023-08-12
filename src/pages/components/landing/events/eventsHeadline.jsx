@@ -15,7 +15,7 @@ const EventsHeadline = () => {
       {/* Div for second flex item */}
       <div className="max-w-md mt-12 p-5 mx-24 max-sm:p-0 max-md:mx-5">
         <h3 className="font-normal mb-6">
-          Discover the Vibrant Community of DITA: Daytstar University's Resource
+          Discover the Vibrant Community of DITA: Daystar University's Resource
           Lab for Computer Science Enthusiasts
         </h3>
         <h4 className="font-light mb-4">Exciting Update | Must-Know</h4>
@@ -23,8 +23,8 @@ const EventsHeadline = () => {
           Empowering DITA Members: why should you join dita?
         </h3>
         <EventsParagraph>
-          DITA (Daytstar University's Resource Lab) is a bustling haven for
-          computer science enthusiasts at Daytstar University. It serves as a
+          DITA (Daystar University's Resource Lab) is a bustling haven for
+          computer science enthusiasts at Daystar University. It serves as a
           meeting ground for brilliant minds who gather to work, collaborate,
           and exchange ideas, pushing the boundaries of innovation and progress.
         </EventsParagraph>
