@@ -11,9 +11,13 @@ These are the following steps of adding a new feature to this repo: KINDLY FOLLO
 
     Steps
     
-    1. create your own branch for exaple event-feat
+    1. create your own branch for example event-feat
     2. pull from develop for example git pull origin develop
     3. make changes in your own branch.
-    4. add, commit the push the code to the repo
+    4. add, commit the push the code to the repo in the branch you were working on
+
+    **NB. DO NOT PUSH DIRECTLY TO DEVELOP**
+
+    
     5. Create a pull request to develop.
     6. Review the code and if all checks have passed, create a pull request from develop to prod
