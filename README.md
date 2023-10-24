@@ -10,14 +10,16 @@ These are the following steps of adding a new feature to this repo: KINDLY FOLLO
     The branch that is on deployment is prod.
 
     Steps
-    
-    1. create your own branch for example event-feat
-    2. pull from develop for example git pull origin develop
-    3. make changes in your own branch.
-    4. add, commit the push the code to the repo in the branch you were working on
+
+    1. create an issue
+    2. create your own in your local branch for fixing the issue for example event-feat-issue-mobileview
+    3. clone the repo to your local machine(if not cloned before in your machine)
+    3. pull from develop for example git pull origin develop
+    4. make changes in your own branch(in this case event-feat-issue-mobileview).
+    5. add, commit the push the code to the repo in the branch you were working on(in this case event-feat-issue-mobileview)
 
     **NB. DO NOT PUSH DIRECTLY TO DEVELOP**
 
     
-    5. Create a pull request to develop.
-    6. Review the code and if all checks have passed, create a pull request from develop to prod
+    6. Create a pull request to develop.
+    7. Review the code and if all checks have passed, create a pull request from develop to prod
