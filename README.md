@@ -22,4 +22,4 @@ These are the following steps of adding a new feature to this repo: KINDLY FOLLO
 
     
     6. Create a pull request to develop.
-    7. Review the code and if all checks have passed, create a pull request from develop to prod
+    7. Review the code(if you are an admin in this project) or ask an admin to review the code and if all checks have passed, create a pull request from develop to prod
